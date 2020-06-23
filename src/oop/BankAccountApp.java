@@ -16,7 +16,7 @@ public class BankAccountApp {
 		BankAccount bankAcc1 = new BankAccount();
 		
 		//another bank acc to demonstrate overloading - polymorphism
-		BankAccount bankAcc2 = new BankAccount("Savings");
+		//BankAccount bankAcc2 = new BankAccount("Savings");
 		
 		//without encapsulation:
 		//bankAcc1.name = "acc1";
