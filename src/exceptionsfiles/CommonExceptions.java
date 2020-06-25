@@ -11,6 +11,7 @@ public class CommonExceptions {
 		//2. Surround with a try-catch block:
 		try {
 		int c = a/b;
+		System.out.println(c);
 	} catch (ArithmeticException e) {
 		System.out.println("cannot divide by 0");
 		System.out.println(e.toString());
