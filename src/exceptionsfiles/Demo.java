@@ -13,6 +13,7 @@ public class Demo {
 	}
 	
 	public static double answer(int a, int b) {
+		//catch the error here:
 		return a/b;
 	}
 
